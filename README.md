@@ -6,4 +6,4 @@
 
 - This example uses historical information to construct a machine learning model of a mobile operator’s customer churn. First, SageMaker trains your machine learning model and then tests your model using the profile information of an arbitrary customer. After the model is validated, Amazon SageMaker deploys the model and the prediction function to Amazon Redshift. You can use the prediction function to predict whether a customer is going to churn or not.
 
-- Create your S3 bucket , and replace it in the sql code.
+- Create your S3 bucket , and replace </target/path> in the sql code.
